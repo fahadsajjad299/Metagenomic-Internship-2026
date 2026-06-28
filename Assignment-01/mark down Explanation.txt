@@ -1,0 +1,63 @@
+# Taxonomic Biomarkers in Skin Microbiome of Atopic Dermatitis
+
+## Study Information
+- BioProject: PRJNA46333
+- Study: Gene-Environment Interactions at the Skin Surface
+- Samples: 50 human skin metagenome samples
+- Platform: Illumina HiSeq 2000
+- Location: USA
+- Collection Period: June-October 2011
+- KBase Narrative: MGBIO_MG_01_Fahad_Sajjad
+
+## What is Atopic Dermatitis?
+A common skin disease (Eczema) causing red, itchy, 
+inflamed skin. Certain bacteria on skin trigger or 
+worsen the disease.
+
+## What are Taxonomic Biomarkers?
+Bacterial signatures of a disease. If bacteria X is 
+always found in sick people but not healthy people, 
+it is a biomarker.
+
+## Metadata Column Exploration
+
+### Column 1: Run
+- Example: SRR1620013
+- Purpose: Unique ID for each DNA sequencing file
+
+### Column 2: BioSample
+- Example: SAMN03025393
+- Purpose: Links sample to patient clinical info
+
+### Column 3: Organism
+- Value: human skin metagenome
+- Relevance: Studies ALL bacteria on skin together
+
+### Column 4: isolation_source (Most Important)
+- Example: Ac-L, Ph-R, N-R
+- Ac = antecubital fossa = most common AD lesion site
+- Ph = popliteal fossa = common AD lesion site
+- Comparing these to dry sites identifies AD biomarkers
+
+### Column 5: env_material
+- Ss = Sebaceous, Sw = Sweaty, Cut = Cutaneous
+- AD flares most common in sebaceous/moist areas
+
+### Column 6: Collection_Date
+- Range: June to October 2011
+- Seasonal changes affect skin microbiome
+
+### Column 7: host_sex
+- Male/Female
+- Hormones influence skin microbiome diversity
+
+### Column 8: LibraryLayout
+- Value: PAIRED
+- Higher accuracy for bacterial classification
+
+## Biological Conclusion
+Body site (isolation_source) is the primary metadata 
+variable linking this dataset to Atopic Dermatitis. 
+Antecubital and popliteal sites show Staphylococcus 
+aureus overgrowth and reduced microbial diversity — 
+these are the key taxonomic biomarkers of AD.
